@@ -29,7 +29,7 @@ reset = machine.Pin(21,machine.Pin.IN,Pin.PULL_DOWN)
 wifi = None
 
 def setUpWifi():
-    """******************* IMTERNET SET UP *************************"""
+    """******************* NET SET UP *************************"""
     global wifi 
     # WiFi connection information
      WIFI_SSID = 'YOUR WIFI ID NAME'
@@ -64,7 +64,7 @@ def setUpWifi():
         
 setUpWifi()
         
-"""******************* IMTERNET SET UP FINISHED *************************""" 
+"""******************* NET SET UP FINISHED *************************""" 
 
 #Global variables
 reset = False
